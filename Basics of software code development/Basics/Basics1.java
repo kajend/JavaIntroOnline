@@ -22,9 +22,5 @@ public class Basics1 {
         } catch (InputMismatchException e) {
             System.out.println("Entered number doesn't match the expected type");
         }
-
-
     }
 }
-
-
