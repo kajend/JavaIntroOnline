@@ -16,10 +16,3 @@ public class Loops4 {
         System.out.println("Product of squares of the first two hundred numbers is\n" + product);
     }
 }
-
-
-
-
-
-
-
