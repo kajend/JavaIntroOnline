@@ -1,2 +1,2 @@
-EPAM training center
+EPAM training center. 
 Introduction to JAVA Online
