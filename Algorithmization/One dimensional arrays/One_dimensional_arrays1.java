@@ -29,7 +29,7 @@ public class One_dimensional_arrays1 {
                 }
             }
 
-            for (int i = 0; i < n; i++) { //Проверка на кратность
+            for (int i = 0; i < n; i++) { //Проверка на кратность + вычисление суммы
 
                 if (array[i] % k == 0) {
                     sum += array[i];
