@@ -1,26 +1,36 @@
-package by.etc.basics.first_exercise;
+package by.etc.basic.first_exercise;
 
 //Найдите значение функции: z = ( (a – 3 ) * b / 2) + c.
 
-import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class Basics1 {
+public class Basic1 {
+
     public static void main(String[] args) {
 
-        System.out.println("Enter a");
         Scanner scan = new Scanner(System.in);
 
-        try {
-            double a = scan.nextDouble();
-            System.out.println("Enter b");
-            double b = scan.nextDouble();
-            System.out.println("Enter c");
-            double c = scan.nextDouble();
-            System.out.println("Your function is: " + (((a - 3) * b / 2) + c));
-
-        } catch (InputMismatchException e) {
-            System.out.println("Entered number doesn't match the expected type");
+        System.out.println("Enter a");
+        while (scan.hasNextInt() == false) {
+            scan.next();
+            System.out.println("Entered number doesn't match the expected DOUBLE type. Try again");
         }
+        double a = scan.nextDouble();
+
+        System.out.println("Enter b");
+        while (scan.hasNextInt() == false) {
+            scan.next();
+            System.out.println("Entered number doesn't match the expected DOUBLE type. Try again");
+        }
+        double b = scan.nextDouble();
+
+        System.out.println("Enter c");
+        while (scan.hasNextInt() == false) {
+            scan.next();
+            System.out.println("Entered number doesn't match the expected DOUBLE type. Try again");
+        }
+        double c = scan.nextDouble();
+
+        System.out.println("Your function is: " + (((a - 3) * b / 2) + c));
     }
 }
