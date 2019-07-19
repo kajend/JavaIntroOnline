@@ -11,21 +11,21 @@ public class Basic1 {
         Scanner scan = new Scanner(System.in);
 
         System.out.println("Enter a");
-        while (scan.hasNextInt() == false) {
+        while (scan.hasNextDouble() == false) {
             scan.next();
             System.out.println("Entered number doesn't match the expected DOUBLE type. Try again");
         }
         double a = scan.nextDouble();
 
         System.out.println("Enter b");
-        while (scan.hasNextInt() == false) {
+        while (scan.hasNextDouble() == false) {
             scan.next();
             System.out.println("Entered number doesn't match the expected DOUBLE type. Try again");
         }
         double b = scan.nextDouble();
 
         System.out.println("Enter c");
-        while (scan.hasNextInt() == false) {
+        while (scan.hasNextDouble() == false) {
             scan.next();
             System.out.println("Entered number doesn't match the expected DOUBLE type. Try again");
         }
