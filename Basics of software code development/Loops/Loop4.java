@@ -1,11 +1,13 @@
-package by.etc.loops.fourth_exercise;
+package by.etc.loop.fourth_exercise;
 
 //Составить программу нахождения произведения квадратов первых двухсот чисел.
 
 import java.math.BigInteger;
 
-public class Loops4 {
+public class Loop4 {
+    
     public static void main(String[] args) {
+        
         BigInteger product = BigInteger.valueOf(1);
         //valueOf --> Returns a BigInteger whose value is equal to that of the specified long.
 
