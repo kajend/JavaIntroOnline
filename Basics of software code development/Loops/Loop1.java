@@ -16,7 +16,7 @@ public class Loop1 {
 
         while (!scan.hasNextInt()) {
             scan.next();
-            System.out.println("Entered number doesn't match the expected type");
+            System.out.println("Entered number doesn't match the expected type. Try again");
         }
 
         int number = scan.nextInt();
@@ -26,7 +26,7 @@ public class Loop1 {
 
             while (!scan.hasNextInt()) {
                 scan.next();
-                System.out.println("Entered number doesn't match the expected type");
+                System.out.println("Entered number doesn't match the expected type. Try again");
             }
             number = scan.nextInt();
         }
