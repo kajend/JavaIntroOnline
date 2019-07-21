@@ -11,6 +11,7 @@ public class Branching4 {
 
         Scanner scan = new Scanner(System.in);
 
+        @SuppressWarnings("resource")
         System.out.println("Enter A parameter of the hole");
 
         while (!scan.hasNextInt()) {
