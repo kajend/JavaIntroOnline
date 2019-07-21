@@ -9,6 +9,7 @@ public class Basic4 {
 
     public static void main(String[] args) {
 
+        @SuppressWarnings("resource")
         Scanner scan = new Scanner(System.in);
 
         System.out.println("Enter number in format NNN.DDD");
