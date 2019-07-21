@@ -8,6 +8,7 @@ public class Branching2 {
 
     public static void main(String[] args) {
 
+        @SuppressWarnings("resource")
         Scanner scan = new Scanner(System.in);
 
         int min1;
