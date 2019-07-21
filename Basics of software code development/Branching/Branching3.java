@@ -11,6 +11,7 @@ public class Branching3 {
 
     public static void main(String[] args) {
 
+        @SuppressWarnings("resource")
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter x1");
         double k, b; //Уравнение прямой y = kx + b,
