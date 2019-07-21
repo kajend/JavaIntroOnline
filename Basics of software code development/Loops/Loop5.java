@@ -4,7 +4,6 @@ package by.etc.loop.fifth_exercise;
 // Найти сумму тех членов ряда, модуль которых больше или равен заданному е.
 // Общий член ряда имеет вид: a(n) = 1/2^n + 1/3^n
 
-
 import java.util.Scanner;
 
 public class Loop5 {
@@ -15,6 +14,7 @@ public class Loop5 {
         double sum = 0;
         double a;
 
+        @SuppressWarnings("resource")
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter the number of series members");
 
