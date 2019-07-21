@@ -9,6 +9,7 @@ public class Loop1 {
 
     public static void main(String[] args) {
 
+        @SuppressWarnings("resource")
         Scanner scan = new Scanner(System.in);
         int sum = 0;
 
