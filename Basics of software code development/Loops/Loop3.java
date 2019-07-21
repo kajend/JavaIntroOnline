@@ -1,8 +1,8 @@
-package by.etc.loops.third_exercise;
+package by.etc.loop.third_exercise;
 
 //Найти сумму квадратов первых ста чисел.
 
-public class Loops3 {
+public class Loop3 {
     public static void main(String[] args) {
         int sum = 0;
 
