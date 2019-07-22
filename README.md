@@ -1,3 +1,3 @@
 # JavaIntroOnline
-## Basics of software code development
-## Algorithmization
+### Basics of software code development
+### Algorithmization
