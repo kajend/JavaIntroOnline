@@ -1,7 +1,7 @@
 package by.etc.one_dimensional_array.first_exercise;
 
 //В массив A [N] занесены натуральные числа.
-// Найти сумму тех элементов, которые кратны данному К.
+//Найти сумму тех элементов, которые кратны данному К.
 
 import java.util.Scanner;
 
@@ -13,6 +13,7 @@ public class OneDimensionalArray1 {
 
         @SuppressWarnings("resource")
         Scanner scan = new Scanner(System.in);
+        
         System.out.println("Enter array size");
 
         while (scan.hasNextInt() == false) {
@@ -40,7 +41,7 @@ public class OneDimensionalArray1 {
             System.out.println("Entered number doesn't match the expected type. Enter array size");
         }
 
-        int k = scan.nextInt();
+        int k = scan.nextInt();//Число, кратные которому надо найти
 
         int[] array = new int[n];
 
