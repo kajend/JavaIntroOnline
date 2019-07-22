@@ -6,7 +6,7 @@ package by.etc.one_dimensional_array.second_exercise;
 
 import java.util.Scanner;
 
-public class One_dimensional_array2 {
+public class OneDimensionalArray2 {
 
     public static void main(String[] args) {
 
