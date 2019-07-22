@@ -66,6 +66,7 @@ public class OneDimensionalArray4 {
                 indexMax = i;
             }
         }
+        
         //Меняем местами максимальные и минимальный элементы
         temp = array[indexMin];
         array[indexMin] = array[indexMax];
