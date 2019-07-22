@@ -1,8 +1,8 @@
 package by.etc.one_dimensional_array.second_exercise;
 
 //Дана последовательность действительных чисел а1 ,а2 ,..., ап.
-// Заменить все ее члены, большие данного Z, этим числом.
-// Подсчитать количество замен.
+//Заменить все ее члены, большие данного Z, этим числом.
+//Подсчитать количество замен.
 
 import java.util.Scanner;
 
@@ -20,7 +20,7 @@ public class OneDimensionalArray2 {
             System.out.println("Entered number doesn't match the expected type. Try again");
         }
 
-        double z = scan.nextDouble();
+        double z = scan.nextDouble(); //Число, которым надо заменить элементы, большие данного числа
 
         System.out.println("Enter array size");
 
