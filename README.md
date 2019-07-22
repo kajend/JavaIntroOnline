@@ -1,3 +1,3 @@
 # JavaIntroOnline
-### Basics of software code development
+:white_check_mark: ### Basics of software code development
 ### Algorithmization
