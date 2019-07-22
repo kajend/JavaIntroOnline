@@ -41,7 +41,18 @@ public class OneDimensionalArray1 {
             System.out.println("Entered number doesn't match the expected type. Enter array size");
         }
 
-        int k = scan.nextInt();//Число, кратные которому надо найти
+        int k = scan.nextInt(); //Число, кратные которому надо найти
+        
+        while (k == 0) {
+            System.out.println("Number can't be zero. Try again");
+           
+            while (scan.hasNextInt() == false) {
+                scan.next();
+                System.out.println("Entered number doesn't match the expected type. Try again");
+            }
+            
+            k = scan.nextInt();
+        }
 
         int[] array = new int[n];
 
