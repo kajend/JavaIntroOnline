@@ -11,6 +11,7 @@ public class One_dimensional_array1 {
 
         int sum = 0;
 
+        @SuppressWarnings("resource")
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter array size");
 
