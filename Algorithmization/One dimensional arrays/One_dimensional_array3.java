@@ -39,7 +39,7 @@ public class One_dimensional_array3 {
 
         double[] arr = new double[size];
 
-        for (int i = 0; i < arr.length; i++) {
+        for (int i = 0; i < arr.length; i++) { //Заполнение массива
             System.out.println("Enter " + i + " element");
 
             while (scan.hasNextInt() == false) {
@@ -48,7 +48,8 @@ public class One_dimensional_array3 {
             }
 
             arr[i] = scan.nextDouble();
-
+       
+            //Подсчет элементов
             if (arr[i] == 0) {
                 zero++;
 
