@@ -1,4 +1,4 @@
-package by.etc.one_dimensional_array_fiffth_exercise;
+package by.etc.one_dimensional_array.fiffth_exercise;
 
 //Даны целые числа а1 ,а2 ,..., аn .
 //Вывести на печать только те числа, для которых аi > i.
@@ -46,4 +46,3 @@ public class OneDimensionalArray5 {
         }
     }
 }
-
