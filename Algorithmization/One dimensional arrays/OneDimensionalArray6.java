@@ -11,7 +11,7 @@ public class OneDimensionalArray6 {
 
         double sum = 0;
 
-        @SuppressWarnings("recourse")
+        @SuppressWarnings("resource")
         Scanner scan = new Scanner(System.in);
 
         while (!scan.hasNextInt()) {
