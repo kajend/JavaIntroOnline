@@ -11,7 +11,7 @@ public class OneDimensionalArray5 {
 
         System.out.println("Enter array size");
 
-        @SuppressWarnings("recourse")
+        @SuppressWarnings("resource")
         Scanner scan = new Scanner(System.in);
 
         while (!scan.hasNextInt()) {
