@@ -4,7 +4,7 @@ package by.etc.one_dimensional_array.seventh_exercise;
 
 import java.util.Scanner;
 
-public class OneDimensionalArray {
+public class OneDimensionalArray7 {
 
     public static void main(String[] args) {
 
