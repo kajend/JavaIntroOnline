@@ -6,7 +6,7 @@
 :feet: [Branching](https://github.com/kajend/JavaIntroOnline/tree/master/Basics%20of%20software%20code%20development/Branching)   
 :feet: [Loops](https://github.com/kajend/JavaIntroOnline/tree/master/Basics%20of%20software%20code%20development/Loops)
 ### :white_large_square: [Algorithmization](https://github.com/kajend/JavaIntroOnline/tree/master/Algorithmization)
-:feet: [One dimensional arrays](https://github.com/kajend/JavaIntroOnline/tree/master/Algorithmization/One%20dimensional%20arrays)
+:feet: [One dimensional arrays](https://github.com/kajend/JavaIntroOnline/tree/master/Algorithmization/One%20dimensional%20arrays)    
 :feet: [Multi dimensional arrays](https://github.com/kajend/JavaIntroOnline/tree/master/Algorithmization/Multi%20Dimensional%20Arrays)
 ### :white_large_square: Strings and basics of text processing
 ### :white_large_square: Programming with classes
