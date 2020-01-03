@@ -8,8 +8,6 @@
 ### :white_large_square: [Algorithmization](https://github.com/kajend/JavaIntroOnline/tree/master/Algorithmization)
 :feet: [One dimensional arrays](https://github.com/kajend/JavaIntroOnline/tree/master/Algorithmization/One%20dimensional%20arrays)    
 :white_circle: [Multi dimensional arrays](https://github.com/kajend/JavaIntroOnline/tree/master/Algorithmization/Multi%20Dimensional%20Arrays)    
- :black_circle: One dimensional arrays. Sorts   
- :black_circle: Decomposition using methods
 ### :white_large_square: Strings and basics of text processing
 ### :white_large_square: Programming with classes
 ### :white_large_square: Basics of OOP
